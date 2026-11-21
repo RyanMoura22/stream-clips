@@ -25,14 +25,22 @@ word-by-word captions, plus a caption and hashtags for each clip.
 
 ## Install
 
-Download the zip (don't unzip it). Open your AI coding app in a new session and paste this:
+Open your AI coding app in a new session and paste this:
 
-> Install the skill in stream-clips.zip from my Downloads folder. Unzip it so the folder
-> `stream-clips` sits in my skills folder: `~/.claude/skills/` for Claude Code,
+> Install the skill from https://github.com/RyanMoura22/stream-clips. Clone it with git so the
+> folder `stream-clips` sits in my skills folder: `~/.claude/skills/` for Claude Code,
 > `~/.codex/skills/` for Codex, `~/.gemini/skills/` for Gemini CLI, `~/.config/opencode/skills/`
 > for OpenCode. If my app has no skills folder, put it in my home folder. Then read SKILL.md
 > inside it, run its setup until it prints READY (install anything it says is missing, the
 > official way), and run `find --topic "GTA 6"` and tell me what it found.
+
+Or clone it yourself, e.g. for Claude Code:
+
+```
+git clone https://github.com/RyanMoura22/stream-clips.git ~/.claude/skills/stream-clips
+```
+
+To update later, run `git pull` inside that folder.
 
 Then just ask, for example:
 
